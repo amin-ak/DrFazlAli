@@ -1,0 +1,18 @@
+@import "variables"; 
+*{
+    // outline: 1px solid black;
+    direction: rtl;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 20px;
+    background-color: red;
+}
+.card{
+    width: $size_default;
+    height: $size_default;
+    background-color: $color_primary;
+    color: $color_primary;
+    border-radius: $radius_mini;
+}
